@@ -1,0 +1,23 @@
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1s ease;
+}
+.inner:hover img{
+    transform: scale(1.2);
+}
+img.slide{
+    height: 450px;
+}
+.sizer{
+    height: 20rem;
+}
+
+
+.carousel-caption {
+    top: 10vh;
+    bottom: auto;
+    text-align: left;
+}
